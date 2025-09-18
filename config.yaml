@@ -1,0 +1,15 @@
+name: OSM MCP Server
+version: "1.0.0"
+slug: osm_mcp_server
+description: Run OSM MCP Server via mcp-proxy on a configurable port
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: auto
+options:
+  port: 8000
+schema:
+  port: int
+ports:
+  "{port}/tcp": "{port}"
