@@ -1,6 +1,6 @@
 name: OSM MCP Server
 version: "1.0.0"
-slug: osm_mcp_server
+slug: osm-mcp-addon
 description: Run OSM MCP Server via mcp-proxy on a configurable port
 arch:
   - amd64
