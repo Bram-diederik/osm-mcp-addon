@@ -1,7 +1,8 @@
-
+{
   "name": "Custom Add-ons",
-  "slug": "osm-mcp-addon",
-  "maintainer": "Bram Diederik",
-  "description": "OSM MCP Server via mcp-proxy on a configurable port",
+  "maintainer": "Bram Diederik <email@example.com>",
   "url": "https://github.com/Bram-diederik/osm-mcp-addon",
+  "slug": "osm-mcp-addon",
+  "description": "OSM MCP Server via mcp-proxy on a configurable port",
   "arch": ["amd64", "aarch64"]
+}
